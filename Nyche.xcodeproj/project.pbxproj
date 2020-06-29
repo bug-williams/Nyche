@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B49B1924AA81BF00BCAF35 /* NycheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B1824AA81BF00BCAF35 /* NycheApp.swift */; };
+		92B49B1B24AA81BF00BCAF35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B1A24AA81BF00BCAF35 /* ContentView.swift */; };
+		92B49B1D24AA81C000BCAF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B49B1C24AA81C000BCAF35 /* Assets.xcassets */; };
+		92B49B2024AA81C000BCAF35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B49B1F24AA81C000BCAF35 /* Preview Assets.xcassets */; };
+		92B49B2B24AA81C000BCAF35 /* NycheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B2A24AA81C000BCAF35 /* NycheTests.swift */; };
+		92B49B3624AA81C000BCAF35 /* NycheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B3524AA81C000BCAF35 /* NycheUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B49B2724AA81C000BCAF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B49B0D24AA81BF00BCAF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B49B1424AA81BF00BCAF35;
+			remoteInfo = Nyche;
+		};
+		92B49B3224AA81C000BCAF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B49B0D24AA81BF00BCAF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B49B1424AA81BF00BCAF35;
+			remoteInfo = Nyche;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92B49B1524AA81BF00BCAF35 /* Nyche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nyche.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B49B1824AA81BF00BCAF35 /* NycheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NycheApp.swift; sourceTree = "<group>"; };
+		92B49B1A24AA81BF00BCAF35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92B49B1C24AA81C000BCAF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B49B1F24AA81C000BCAF35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92B49B2124AA81C000BCAF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B49B2624AA81C000BCAF35 /* NycheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NycheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B49B2A24AA81C000BCAF35 /* NycheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NycheTests.swift; sourceTree = "<group>"; };
+		92B49B2C24AA81C000BCAF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B49B3124AA81C000BCAF35 /* NycheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NycheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B49B3524AA81C000BCAF35 /* NycheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NycheUITests.swift; sourceTree = "<group>"; };
+		92B49B3724AA81C000BCAF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B49B1224AA81BF00BCAF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B49B2324AA81C000BCAF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B49B2E24AA81C000BCAF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B49B0C24AA81BF00BCAF35 = {
+			isa = PBXGroup;
+			children = (
+				92B49B1724AA81BF00BCAF35 /* Nyche */,
+				92B49B2924AA81C000BCAF35 /* NycheTests */,
+				92B49B3424AA81C000BCAF35 /* NycheUITests */,
+				92B49B1624AA81BF00BCAF35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92B49B1624AA81BF00BCAF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B49B1524AA81BF00BCAF35 /* Nyche.app */,
+				92B49B2624AA81C000BCAF35 /* NycheTests.xctest */,
+				92B49B3124AA81C000BCAF35 /* NycheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B49B1724AA81BF00BCAF35 /* Nyche */ = {
+			isa = PBXGroup;
+			children = (
+				92B49B1824AA81BF00BCAF35 /* NycheApp.swift */,
+				92B49B1A24AA81BF00BCAF35 /* ContentView.swift */,
+				92B49B1C24AA81C000BCAF35 /* Assets.xcassets */,
+				92B49B2124AA81C000BCAF35 /* Info.plist */,
+				92B49B1E24AA81C000BCAF35 /* Preview Content */,
+			);
+			path = Nyche;
+			sourceTree = "<group>";
+		};
+		92B49B1E24AA81C000BCAF35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92B49B1F24AA81C000BCAF35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92B49B2924AA81C000BCAF35 /* NycheTests */ = {
+			isa = PBXGroup;
+			children = (
+				92B49B2A24AA81C000BCAF35 /* NycheTests.swift */,
+				92B49B2C24AA81C000BCAF35 /* Info.plist */,
+			);
+			path = NycheTests;
+			sourceTree = "<group>";
+		};
+		92B49B3424AA81C000BCAF35 /* NycheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92B49B3524AA81C000BCAF35 /* NycheUITests.swift */,
+				92B49B3724AA81C000BCAF35 /* Info.plist */,
+			);
+			path = NycheUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B49B1424AA81BF00BCAF35 /* Nyche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B49B3A24AA81C000BCAF35 /* Build configuration list for PBXNativeTarget "Nyche" */;
+			buildPhases = (
+				92B49B1124AA81BF00BCAF35 /* Sources */,
+				92B49B1224AA81BF00BCAF35 /* Frameworks */,
+				92B49B1324AA81BF00BCAF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nyche;
+			productName = Nyche;
+			productReference = 92B49B1524AA81BF00BCAF35 /* Nyche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B49B2524AA81C000BCAF35 /* NycheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B49B3D24AA81C000BCAF35 /* Build configuration list for PBXNativeTarget "NycheTests" */;
+			buildPhases = (
+				92B49B2224AA81C000BCAF35 /* Sources */,
+				92B49B2324AA81C000BCAF35 /* Frameworks */,
+				92B49B2424AA81C000BCAF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B49B2824AA81C000BCAF35 /* PBXTargetDependency */,
+			);
+			name = NycheTests;
+			productName = NycheTests;
+			productReference = 92B49B2624AA81C000BCAF35 /* NycheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92B49B3024AA81C000BCAF35 /* NycheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B49B4024AA81C000BCAF35 /* Build configuration list for PBXNativeTarget "NycheUITests" */;
+			buildPhases = (
+				92B49B2D24AA81C000BCAF35 /* Sources */,
+				92B49B2E24AA81C000BCAF35 /* Frameworks */,
+				92B49B2F24AA81C000BCAF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B49B3324AA81C000BCAF35 /* PBXTargetDependency */,
+			);
+			name = NycheUITests;
+			productName = NycheUITests;
+			productReference = 92B49B3124AA81C000BCAF35 /* NycheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B49B0D24AA81BF00BCAF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					92B49B1424AA81BF00BCAF35 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					92B49B2524AA81C000BCAF35 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 92B49B1424AA81BF00BCAF35;
+					};
+					92B49B3024AA81C000BCAF35 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 92B49B1424AA81BF00BCAF35;
+					};
+				};
+			};
+			buildConfigurationList = 92B49B1024AA81BF00BCAF35 /* Build configuration list for PBXProject "Nyche" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B49B0C24AA81BF00BCAF35;
+			productRefGroup = 92B49B1624AA81BF00BCAF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B49B1424AA81BF00BCAF35 /* Nyche */,
+				92B49B2524AA81C000BCAF35 /* NycheTests */,
+				92B49B3024AA81C000BCAF35 /* NycheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B49B1324AA81BF00BCAF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B49B2024AA81C000BCAF35 /* Preview Assets.xcassets in Resources */,
+				92B49B1D24AA81C000BCAF35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B49B2424AA81C000BCAF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B49B2F24AA81C000BCAF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B49B1124AA81BF00BCAF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B49B1B24AA81BF00BCAF35 /* ContentView.swift in Sources */,
+				92B49B1924AA81BF00BCAF35 /* NycheApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B49B2224AA81C000BCAF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B49B2B24AA81C000BCAF35 /* NycheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B49B2D24AA81C000BCAF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B49B3624AA81C000BCAF35 /* NycheUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92B49B2824AA81C000BCAF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B49B1424AA81BF00BCAF35 /* Nyche */;
+			targetProxy = 92B49B2724AA81C000BCAF35 /* PBXContainerItemProxy */;
+		};
+		92B49B3324AA81C000BCAF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B49B1424AA81BF00BCAF35 /* Nyche */;
+			targetProxy = 92B49B3224AA81C000BCAF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92B49B3824AA81C000BCAF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B49B3924AA81C000BCAF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B49B3B24AA81C000BCAF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nyche/Preview Content\"";
+				DEVELOPMENT_TEAM = ZYTKCJ322J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nyche/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zacharywilliams.Nyche;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B49B3C24AA81C000BCAF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nyche/Preview Content\"";
+				DEVELOPMENT_TEAM = ZYTKCJ322J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nyche/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zacharywilliams.Nyche;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92B49B3E24AA81C000BCAF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYTKCJ322J;
+				INFOPLIST_FILE = NycheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zacharywilliams.NycheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nyche.app/Nyche";
+			};
+			name = Debug;
+		};
+		92B49B3F24AA81C000BCAF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYTKCJ322J;
+				INFOPLIST_FILE = NycheTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zacharywilliams.NycheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nyche.app/Nyche";
+			};
+			name = Release;
+		};
+		92B49B4124AA81C000BCAF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYTKCJ322J;
+				INFOPLIST_FILE = NycheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zacharywilliams.NycheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nyche;
+			};
+			name = Debug;
+		};
+		92B49B4224AA81C000BCAF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYTKCJ322J;
+				INFOPLIST_FILE = NycheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.zacharywilliams.NycheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nyche;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B49B1024AA81BF00BCAF35 /* Build configuration list for PBXProject "Nyche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B49B3824AA81C000BCAF35 /* Debug */,
+				92B49B3924AA81C000BCAF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B49B3A24AA81C000BCAF35 /* Build configuration list for PBXNativeTarget "Nyche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B49B3B24AA81C000BCAF35 /* Debug */,
+				92B49B3C24AA81C000BCAF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B49B3D24AA81C000BCAF35 /* Build configuration list for PBXNativeTarget "NycheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B49B3E24AA81C000BCAF35 /* Debug */,
+				92B49B3F24AA81C000BCAF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B49B4024AA81C000BCAF35 /* Build configuration list for PBXNativeTarget "NycheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B49B4124AA81C000BCAF35 /* Debug */,
+				92B49B4224AA81C000BCAF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B49B0D24AA81BF00BCAF35 /* Project object */;
+}
