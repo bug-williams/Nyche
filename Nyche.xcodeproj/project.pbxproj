@@ -3,16 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922FEC6624AE83050017F308 /* ImageTextPostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922FEC6524AE83050017F308 /* ImageTextPostCard.swift */; };
+		9231136724F6FD6C0081D354 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231136624F6FD6C0081D354 /* Tag.swift */; };
+		9238EE4424FAA7D9009A9127 /* TagList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9238EE4324FAA7D9009A9127 /* TagList.swift */; };
+		9238EE4624FC1834009A9127 /* FullscreenGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9238EE4524FC1834009A9127 /* FullscreenGallery.swift */; };
+		926B22B424FDE27A004F576C /* PostFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B22B324FDE27A004F576C /* PostFooter.swift */; };
+		926B22B625013B4F004F576C /* SmallNycheCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B22B525013B4F004F576C /* SmallNycheCard.swift */; };
+		926B22B82501418F004F576C /* Nyche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B22B72501418F004F576C /* Nyche.swift */; };
+		92922ECA24C7A33700CF2AD0 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92922EC924C7A33700CF2AD0 /* PostsView.swift */; };
+		92AC77C424B91A6D004DE69A /* ImagePostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC77C324B91A6D004DE69A /* ImagePostCard.swift */; };
+		92AC77C624B92326004DE69A /* PostImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC77C524B92326004DE69A /* PostImage.swift */; };
+		92B001DE24C50B4000E1B0B0 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B001DD24C50B4000E1B0B0 /* BlurView.swift */; };
 		92B49B1924AA81BF00BCAF35 /* NycheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B1824AA81BF00BCAF35 /* NycheApp.swift */; };
 		92B49B1B24AA81BF00BCAF35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B1A24AA81BF00BCAF35 /* ContentView.swift */; };
 		92B49B1D24AA81C000BCAF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B49B1C24AA81C000BCAF35 /* Assets.xcassets */; };
 		92B49B2024AA81C000BCAF35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B49B1F24AA81C000BCAF35 /* Preview Assets.xcassets */; };
 		92B49B2B24AA81C000BCAF35 /* NycheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B2A24AA81C000BCAF35 /* NycheTests.swift */; };
 		92B49B3624AA81C000BCAF35 /* NycheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B49B3524AA81C000BCAF35 /* NycheUITests.swift */; };
+		92BE0BB124CF4655009866C6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE0BB024CF4655009866C6 /* ProfileView.swift */; };
+		92C408592502C49200CBA3B6 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C408582502C49200CBA3B6 /* GalleryView.swift */; };
+		92C8536324B7DC0E00E08D22 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8536224B7DC0E00E08D22 /* User.swift */; };
+		9B1429A325B4B4D100CF6B0F /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1429A225B4B4D100CF6B0F /* SavedView.swift */; };
+		9B662D4E25B4DC94009DFC10 /* SavedCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B662D4D25B4DC94009DFC10 /* SavedCategoryRow.swift */; };
+		9B863A7B25D7029C007A11D3 /* SavedCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B863A7A25D7029C007A11D3 /* SavedCategoryView.swift */; };
+		9B8AE3B125AB790600CF8193 /* ImageViewerRemote in Frameworks */ = {isa = PBXBuildFile; productRef = 9B8AE3B025AB790600CF8193 /* ImageViewerRemote */; };
+		9B8AE3B325AB790600CF8193 /* ImageViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 9B8AE3B225AB790600CF8193 /* ImageViewer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		922FEC6524AE83050017F308 /* ImageTextPostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextPostCard.swift; sourceTree = "<group>"; };
+		9231136624F6FD6C0081D354 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		9238EE4324FAA7D9009A9127 /* TagList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagList.swift; sourceTree = "<group>"; };
+		9238EE4524FC1834009A9127 /* FullscreenGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenGallery.swift; sourceTree = "<group>"; };
+		926B22B324FDE27A004F576C /* PostFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFooter.swift; sourceTree = "<group>"; };
+		926B22B525013B4F004F576C /* SmallNycheCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNycheCard.swift; sourceTree = "<group>"; };
+		926B22B72501418F004F576C /* Nyche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nyche.swift; sourceTree = "<group>"; };
+		92922EC924C7A33700CF2AD0 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		92AC77C324B91A6D004DE69A /* ImagePostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePostCard.swift; sourceTree = "<group>"; };
+		92AC77C524B92326004DE69A /* PostImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImage.swift; sourceTree = "<group>"; };
+		92B001DD24C50B4000E1B0B0 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		92B49B1524AA81BF00BCAF35 /* Nyche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nyche.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B49B1824AA81BF00BCAF35 /* NycheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NycheApp.swift; sourceTree = "<group>"; };
 		92B49B1A24AA81BF00BCAF35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +75,12 @@
 		92B49B3124AA81C000BCAF35 /* NycheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NycheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B49B3524AA81C000BCAF35 /* NycheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NycheUITests.swift; sourceTree = "<group>"; };
 		92B49B3724AA81C000BCAF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BE0BB024CF4655009866C6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		92C408582502C49200CBA3B6 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		92C8536224B7DC0E00E08D22 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9B1429A225B4B4D100CF6B0F /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		9B662D4D25B4DC94009DFC10 /* SavedCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCategoryRow.swift; sourceTree = "<group>"; };
+		9B863A7A25D7029C007A11D3 /* SavedCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8AE3B325AB790600CF8193 /* ImageViewer in Frameworks */,
+				9B8AE3B125AB790600CF8193 /* ImageViewerRemote in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +110,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92922EC824C7A31100CF2AD0 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				92922EC924C7A33700CF2AD0 /* PostsView.swift */,
+				92BE0BB024CF4655009866C6 /* ProfileView.swift */,
+				9B1429A225B4B4D100CF6B0F /* SavedView.swift */,
+				9B863A7A25D7029C007A11D3 /* SavedCategoryView.swift */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		92AC77C924B924E6004DE69A /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				92C8536224B7DC0E00E08D22 /* User.swift */,
+				92AC77C524B92326004DE69A /* PostImage.swift */,
+				9231136624F6FD6C0081D354 /* Tag.swift */,
+				926B22B72501418F004F576C /* Nyche.swift */,
+			);
+			name = "Data Types";
+			sourceTree = "<group>";
+		};
+		92AC77CA24B924FC004DE69A /* Post Cards */ = {
+			isa = PBXGroup;
+			children = (
+				922FEC6524AE83050017F308 /* ImageTextPostCard.swift */,
+				92AC77C324B91A6D004DE69A /* ImagePostCard.swift */,
+			);
+			name = "Post Cards";
+			sourceTree = "<group>";
+		};
+		92B001DF24C50B4700E1B0B0 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				92B001DD24C50B4000E1B0B0 /* BlurView.swift */,
+				9238EE4324FAA7D9009A9127 /* TagList.swift */,
+				9238EE4524FC1834009A9127 /* FullscreenGallery.swift */,
+				926B22B324FDE27A004F576C /* PostFooter.swift */,
+				926B22B525013B4F004F576C /* SmallNycheCard.swift */,
+				92C408582502C49200CBA3B6 /* GalleryView.swift */,
+				9B662D4D25B4DC94009DFC10 /* SavedCategoryRow.swift */,
+			);
+			name = "UI Components";
+			sourceTree = "<group>";
+		};
 		92B49B0C24AA81BF00BCAF35 = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +178,14 @@
 		92B49B1724AA81BF00BCAF35 /* Nyche */ = {
 			isa = PBXGroup;
 			children = (
-				92B49B1824AA81BF00BCAF35 /* NycheApp.swift */,
-				92B49B1A24AA81BF00BCAF35 /* ContentView.swift */,
 				92B49B1C24AA81C000BCAF35 /* Assets.xcassets */,
 				92B49B2124AA81C000BCAF35 /* Info.plist */,
+				92B49B1824AA81BF00BCAF35 /* NycheApp.swift */,
+				92B49B1A24AA81BF00BCAF35 /* ContentView.swift */,
+				92AC77C924B924E6004DE69A /* Data Types */,
+				92922EC824C7A31100CF2AD0 /* Pages */,
+				92B001DF24C50B4700E1B0B0 /* UI Components */,
+				92AC77CA24B924FC004DE69A /* Post Cards */,
 				92B49B1E24AA81C000BCAF35 /* Preview Content */,
 			);
 			path = Nyche;
@@ -146,6 +233,10 @@
 			dependencies = (
 			);
 			name = Nyche;
+			packageProductDependencies = (
+				9B8AE3B025AB790600CF8193 /* ImageViewerRemote */,
+				9B8AE3B225AB790600CF8193 /* ImageViewer */,
+			);
 			productName = Nyche;
 			productReference = 92B49B1524AA81BF00BCAF35 /* Nyche.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +308,9 @@
 				Base,
 			);
 			mainGroup = 92B49B0C24AA81BF00BCAF35;
+			packageReferences = (
+				9B8AE3AF25AB790500CF8193 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */,
+			);
 			productRefGroup = 92B49B1624AA81BF00BCAF35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +353,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C8536324B7DC0E00E08D22 /* User.swift in Sources */,
+				92BE0BB124CF4655009866C6 /* ProfileView.swift in Sources */,
+				9B662D4E25B4DC94009DFC10 /* SavedCategoryRow.swift in Sources */,
+				9231136724F6FD6C0081D354 /* Tag.swift in Sources */,
+				9B863A7B25D7029C007A11D3 /* SavedCategoryView.swift in Sources */,
+				92B001DE24C50B4000E1B0B0 /* BlurView.swift in Sources */,
 				92B49B1B24AA81BF00BCAF35 /* ContentView.swift in Sources */,
+				926B22B625013B4F004F576C /* SmallNycheCard.swift in Sources */,
+				9238EE4624FC1834009A9127 /* FullscreenGallery.swift in Sources */,
+				92C408592502C49200CBA3B6 /* GalleryView.swift in Sources */,
+				922FEC6624AE83050017F308 /* ImageTextPostCard.swift in Sources */,
+				9238EE4424FAA7D9009A9127 /* TagList.swift in Sources */,
+				9B1429A325B4B4D100CF6B0F /* SavedView.swift in Sources */,
+				926B22B424FDE27A004F576C /* PostFooter.swift in Sources */,
 				92B49B1924AA81BF00BCAF35 /* NycheApp.swift in Sources */,
+				92AC77C424B91A6D004DE69A /* ImagePostCard.swift in Sources */,
+				92922ECA24C7A33700CF2AD0 /* PostsView.swift in Sources */,
+				92AC77C624B92326004DE69A /* PostImage.swift in Sources */,
+				926B22B82501418F004F576C /* Nyche.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +691,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B8AE3AF25AB790500CF8193 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Jake-Short/swiftui-image-viewer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B8AE3B025AB790600CF8193 /* ImageViewerRemote */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B8AE3AF25AB790500CF8193 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */;
+			productName = ImageViewerRemote;
+		};
+		9B8AE3B225AB790600CF8193 /* ImageViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B8AE3AF25AB790500CF8193 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */;
+			productName = ImageViewer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92B49B0D24AA81BF00BCAF35 /* Project object */;
 }
